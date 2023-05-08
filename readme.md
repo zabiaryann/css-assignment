@@ -2,16 +2,16 @@
 
 1. Fork this repository by clicking the "Fork" button in the top right corner of this page. This will create a copy of this repository in your GitHub account.
 2. Clone your forked repository to your local machine using the following command in your terminal:
-
-```git clone https://github.com/your-username/css-exercises.git```
-
-Replace `your-username` with your GitHub username.
+    - `git clone https://github.com/your-username/css-exercises.git`
+    - Replace `your-username` with your GitHub username.
 3. Make changes to the files in your local repository as directed in the exercises.
 4. After making changes, add, commit and push your changes to your remote repository using the following commands in your terminal:
 
-```git add .
+```
+git add .
 git commit -m "Add changes as directed in the exercises"
-git push origin main```
+git push origin main
+```
 
 Replace `main` with the name of the branch you want
 
