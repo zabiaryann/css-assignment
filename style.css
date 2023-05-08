@@ -1,0 +1,108 @@
+.section-title {
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+/* Section 1: Selectors in CSS + Box Model */
+
+
+/*
+Task 1:  Targeting Elements by Tag Name + Border
+- Select all 'p' tags and change the font-size to 16px
+- Finally, add a border around all p elements with a 1px solid line of any color you choose
+*/
+p {
+  font-size: 16px;
+  border: 1px blue solid;
+}
+
+/*
+Task 2:  Targeting Elements by Class + Padding
+- Find the 'nav' element in index.html
+- Give it a class (make sure it is descriptive and easy to understand)
+- Below this comment, target the class you just made and give it a pretty background color
+- Give it 20px of padding - note that the background color 'grows' around the text
+*/
+
+.main-nav {
+  background-color: rgb(166, 206, 247);
+  padding: 20px;
+}
+
+/*
+Task 3:  Targeting Elements by ID + Margin
+- Take a look at the input element with id="name" in index.html
+- Below this comment, target that element by its ID and give it a border radius of 2em
+- Finally, add 15px of margin to the bottom of that element. Note that it pushes the other inputs down
+*/
+
+#name {
+  border-radius: 2em;
+  margin-bottom: 15px;
+}
+
+/*
+Task 4:  Targeting Elements by Descendant Selectors
+- Take a look at the structure of the unordered list in the <nav> element
+- Below this comment, target all <a> tags that are inside of <li> tags and give them
+  text-decoration: none and a new color of your choice (this will make them look less like
+  hyperlinks)
+*/
+
+li a {
+  text-decoration: none;
+  color: lightslategrey;
+}
+
+
+/* End of Section 1: Selectors in CSS */
+
+
+
+/* Section 2: Display and Positioning in CSS */
+/* Task 1: Inline-block
+- Change the display property of the li items with class .inline-block to "inline-block". 
+- Give it 5px of padding as well to space them out
+*/
+li.favorite-food {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Task 2: position: relative
+- Change the positioning of the .hero class to "relative" 
+- Play around with its top, right, bottom, or left properties to position it wherever you want
+- Give it text-align: center to make the text centered on your page
+*/
+.hero {
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+/* Task 3: Display Grid
+- Change the display property of the .features class to "grid"
+- Give it 3 equal columns by using grid-template-columns: 1fr 1fr 1fr;
+- Create a gap of 20px using the 'gap' property
+*/
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* Task 4: Position Fixed 
+- Change the positioning of the footer section to "fixed" 
+- Adjust its bottom and left values. 
+- Note that wherever you scroll on the page, it remains fixed on your viewport! 
+*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* End of Section 2: Display and Positioning in CSS */
+ 
