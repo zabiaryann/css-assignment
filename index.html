@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>css 1</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <h1>My HTML and CSS Page</h1>
-      <nav>
+      <nav class="navigation">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li id="descendant-selectors"><a href="#">Home</a></li>
+          <li id="descendant-selectors"><a href="#">About</a></li>
+          <li id="descendant-selectors"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <h2 class="section-title">Section 1: Selectors in CSS Demo</h2>
-        <p>
+        <p id="p">
           Thanks for visiting my aesthetic page. This is an example of how to
           use semantic HTML. Remember, semantic HTML refers to the practice of
           using HTML elements to convey the meaning or structure of the content
@@ -61,9 +61,9 @@
       <hr />
       <section>
         <h2 class="section-title">Section 2: Display and Positioning in CSS</h2>
-        <section class="hero">
+        <section class="relative">
             <h2>Welcome to my website</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor erat ut metus efficitur, sit amet cursus ex lobortis. Fusce nec elementum arcu. Fusce mollis justo eu elit bibendum, sed ultricies ipsum bibendum.</p>
+            <p id="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor erat ut metus efficitur, sit amet cursus ex lobortis. Fusce nec elementum arcu. Fusce mollis justo eu elit bibendum, sed ultricies ipsum bibendum.</p>
         </section>
         <ul>
             <li class="favorite-food">
@@ -77,7 +77,7 @@
             </li>
         </ul>
     
-        <section class="features">
+        <section class="grid">
             <div class="feature">
                 <h3>Feature 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor erat ut metus efficitur, sit amet cursus ex lobortis.</p>
@@ -92,7 +92,7 @@
             </div>
         </section>
     
-        <footer>
+        <footer class="fixed">
             <p>&copy; 2023 My Website. All rights reserved.</p>
         </footer>
   </body>
